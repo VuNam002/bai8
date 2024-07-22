@@ -1,0 +1,179 @@
+
+
+.box-1 {
+    background: var(--color-1);
+    font-size: 18px;
+    color: var(--color-2);
+    text-align: center;
+    padding: 8px;
+}
+.header {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+}
+
+.header-main .inner-logo img {
+    height: 50px;
+}
+
+
+.header-main .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;    
+}
+
+.header-main .inner-logo span {
+    font-size: 22px;
+    font-weight: 600px;
+}
+
+.header-main .inner-logo a {
+    color: var(--color-1);
+    display: flex;
+    align-items: center;
+}
+
+.header-main .inner-menu ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.header-main .inner-logo {
+    height: 48px;
+    width: auto;
+    margin-right: 10px;
+
+}
+.header-main .inner-menu ul li a {
+    color: var(--color-1);
+    font-size: 18px;
+
+}
+
+.header-main .inner-menu ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.header-main .inner-contact {
+    font-size: 18px;
+    color: var(--color-3);
+}
+
+.header-main .inner-logososial ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.header-main .inner-logososial ul a i {
+    margin-right:20px ;
+    margin-left: auto;
+    color:blue;
+}
+
+/*section one  */
+.section-one{
+    background: #EFF1F4;
+    padding: 40px 0;
+}
+.section-one .inner-wrap {
+    display: flex;
+}
+.section-one .inner-content {
+    width: 50%;
+}
+.section-one .inner-image {
+    width: 50%;
+}
+
+.section-one .inner-title {
+    color: var(--color-1);
+    font-size: 60px;
+}
+
+.section-one .inner-content .inner-desc {
+    color: var(--color-1);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-one .inner-content .inner-list {
+    display: flex;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+.section-one .inner-list .inner-item{
+    color: var(--color-1);
+    margin-right: 30px;
+    padding-bottom: 50px;
+}
+
+.section-one .inner-content .button {
+    color: white;
+    background: var(--color-2);
+    padding: 12px 32px;
+    border-radius: 45px;
+    font-size: 18px;
+}
+.section-one .inner-wrap .inner-image img{
+    max-width: 750px;
+    max-height: 450px;
+    padding-left: 40px;
+}
+.section-one .inner-wrap .inner-image .inner-sale {
+    background: var(--color-2);
+    color: var(--color-1);
+    width: 140px;
+    height: 140px;
+    top: 175px;
+    margin-left: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.section-two {
+    padding: 100px 0;
+}
+
+.section-two .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-two .inner-box {
+    width: calc(100%/3 - 20px);
+    height: 100%;
+    aspect-ratio: 4/3;
+    height: 100%;
+    position: relative;
+}
+
+.section-two .inner-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-two .inner-box .inner-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-two img {
+    width: 200px;
+}
+
